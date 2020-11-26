@@ -1,5 +1,9 @@
 # Introducción a Git
 
+Gites un sistema decontrol de versiones distribuido quese diferencia delresto en elmodo
+en que modela sus datos. La mayoría delos demás sistemas almacenan la información como una lista decambiosen los archivos, mientras que Git modela sus datos máscomo un
+conjunto de instantáneas de un mini sistema de archivos.
+
 ## Los tres estados
 Git tiene tres estados principales en los que se pueden encontrar tus archivos: confirmado (committed), modificado (modified), y preparado (staged). Confirmado significa que los datos están almacenados de manera segura en tu base de datos local. Modificado significa que has modificado el archivo pero todavía no lo has confirmado a tu base de datos. Preparado significa que has marcado un archivo modificado en su versión actual para que vaya en tu próxima confirmación.
 
